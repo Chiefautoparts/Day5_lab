@@ -11,7 +11,7 @@ function sum(a,b){ //eslint-disable-li
 }
 
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+sum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -22,12 +22,12 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-//function multiply(a,b){ //eslint-disable-line
-
-//}
+function multiply(a,b){ //eslint-disable-line
+  return a * b;
+}
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+multiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -45,7 +45,7 @@ Test this function by hand in the console to get it working, and when you think 
 //}
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+// sumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -65,7 +65,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Here is the test for sumArray(); uncomment it to run it
 
-// testSumArray(testArray);
+// sumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -82,6 +82,6 @@ Test this function by hand in the console to get it working, and when you think 
 //}
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(2,3,4);
+// multiplyArray(2,3,4);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
